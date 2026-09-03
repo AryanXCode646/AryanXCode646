@@ -6,7 +6,7 @@
   </a>
 
   <p align="center">
-    <strong>Crafting intelligent AI agents, robust developer tools, and scalable web platforms.</strong>
+    <strong> "Crafting intelligent AI agents","robust developer tools", "and scalable web platforms." </strong>
   </p>
 
   <!-- Quick Action Badges -->
