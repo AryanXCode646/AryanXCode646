@@ -2,7 +2,7 @@
 
   <!-- Typing SVG Header -->
   <a href="https://github.com/AryanXCode646">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Aryan;AI+%2F+ML+Engineer+%26+Full-Stack+Developer;Building+Autonomous+Code+Engines+%32+AI+Systems;Open+Source+Builder+%26+Problem+Solver" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Aryan;AI+%2F+ML+Engineer+%26+Full-Stack+Developer;Building+Autonomous+Code+Engines+%100+AI+Systems;Open+Source+Builder+%26+Problem+Solver" alt="Typing SVG" />
   </a>
 
   <p align="center">
