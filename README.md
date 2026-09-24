@@ -1,19 +1,22 @@
 <div align="center">
 
   <a href="https://github.com/AryanXCode646">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Hi+%F0%9F%91%8B%2C+I'm+Aryan;AI+%2F+ML+Engineer+%26+Full-Stack+Developer;Building+Autonomous+AI+Systems;Open+Source+Builder+%26+Problem+Solver" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38BDF8&center=true&vCenter=true&width=820&lines=Hi+%F0%9F%91%8B%2C+I'm+Aryan+Saxena;AI+%2F+ML+Engineer+%26+Systems+Builder;Building+Autonomous+AI+%26+Intelligent+Software;Research+%E2%80%A2+Open+Source+%E2%80%A2+Full-Stack" alt="Typing SVG" />
   </a>
 
   <p>
-    <strong>Building intelligent AI systems, developer tools, and scalable software.</strong>
+    <strong>Building intelligent systems, research-driven software, and developer tools that turn ambitious ideas into working products.</strong>
   </p>
 
   <p>
-    <a href="mailto:rockstary867@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
     <a href="https://github.com/AryanXCode646">
-      <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-AryanXCode646-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://aryanxcode646.github.io/portfolio-2026/">
+      <img src="https://img.shields.io/badge/Portfolio-2026-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    </a>
+    <a href="mailto:rockstary867@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </p>
 
@@ -23,97 +26,102 @@
 
 ---
 
-## 🚀 About Me
+## 🧭 About Me
 
-I'm **Aryan**, a developer focused on **Artificial Intelligence, Machine Learning, autonomous agents, and full-stack engineering**.
+I'm **Aryan Saxena**, an AI/ML-focused developer who enjoys working at the intersection of **machine learning, autonomous systems, computer vision, developer tooling, security, and full-stack engineering**.
 
-I enjoy turning ambitious ideas into working systems — from AI-powered applications and developer tooling to web platforms and automation pipelines.
+I like building systems where the engineering details matter: reproducible experiments, validation pipelines, sandboxed execution, security boundaries, observable workflows, and software that can survive real-world edge cases.
 
 ```yaml
-name: Aryan
-role:
+name: Aryan Saxena
+
+roles:
   - AI / ML Engineer
   - Full-Stack Developer
+  - Systems Builder
   - Open-Source Contributor
 
 focus:
-  - Artificial Intelligence
-  - Machine Learning
-  - LLM Applications
-  - Autonomous Agents
-  - Developer Tools
+  - Reinforcement Learning
+  - AI Agents & LLM Systems
+  - Computer Vision
+  - Scientific Computing
+  - Developer Tooling
+  - Security Engineering
   - Full-Stack Systems
 
-currently_building:
-  - Autonomous Code Development Engine (ACDE)
+current_projects:
+  - AdaptiveRL
+  - Samanvaya
+  - Karyakshetra
+  - OnionSec
 
-engineering_principles:
-  - Clean Architecture
+engineering_style:
+  - Reproducibility
   - Automated Testing
-  - Reliable Systems
+  - Security by Design
+  - Evidence-Driven Validation
+  - Clean Architecture
   - Developer Experience
-  - Continuous Improvement
-
-interests:
-  - AI Agents
-  - LLM Orchestration
-  - Automation
-  - Computer Vision
-  - System Design
-  - Open Source
 ```
 
-### 🧠 What I Build
+## 🧠 What I Build
 
-* **AI Systems** — LLM-powered applications, intelligent agents, and automation workflows.
-* **Developer Tools** — tools that automate development, testing, debugging, and repetitive engineering tasks.
-* **Full-Stack Applications** — modern frontend and backend systems with scalable architectures.
-* **Computer Vision Systems** — image processing, transformation pipelines, and ML-based applications.
-* **Open-Source Projects** — practical software focused on solving real engineering problems.
+**Autonomous AI Systems**
+LLM-powered development workflows, self-correcting execution loops, sandboxed code generation, and multi-provider AI integrations.
+
+**Reinforcement Learning Systems**
+Reusable Gymnasium-based environments, PPO/SAC training pipelines, classical planning baselines, curriculum learning, and distribution-shift evaluation.
+
+**Scientific & Computer Vision Software**
+Research-oriented image registration, multi-modal correspondence, illumination and scale handling, geospatial/raster processing, and image stylization.
+
+**Developer & Security Tools**
+CLI-first engineering tools, evidence-aware security analysis, monitoring workflows, automated validation, and production-minded developer infrastructure.
+
+**Full-Stack Applications**
+React/TypeScript interfaces, Node.js services, MongoDB-backed APIs, Electron applications, and interactive web experiences.
 
 ---
 
 ## 💻 Tech Stack
 
-### 🧠 AI / Machine Learning
+### 🧠 AI / ML / Scientific Computing
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API" />
-  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Gymnasium-00897B?style=for-the-badge&logo=python&logoColor=white" alt="Gymnasium" />
+  <img src="https://img.shields.io/badge/Stable--Baselines3-2F6FEB?style=for-the-badge&logo=python&logoColor=white" alt="Stable-Baselines3" />
 </p>
 
-### 🌐 Full-Stack Development
+### 🌐 Full-Stack / Desktop
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-### 🗄️ Databases / Cloud / DevOps
+### 🗄️ Data / Infra / Security
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
 </p>
 
 ---
@@ -124,15 +132,15 @@ interests:
   <tr>
     <td width="50%" valign="top">
 
-### ⚡ Autonomous Code Development Engine
+### 🤖 AdaptiveRL
 
-An AI-powered software development engine designed to generate, execute, test, and iteratively improve code inside an isolated execution environment.
+**Multi-environment reinforcement learning platform** for training, evaluating, and benchmarking adaptive agents.
 
-**Focus:** AI Agents · LLM Orchestration · Automated Testing · Sandboxing
+Features include Gymnasium environments, PPO/SAC adapters, A* and RRT* baselines, curriculum learning, deterministic evaluation, and distribution-shift benchmarks with unseen environments.
 
 <p>
-  <a href="https://github.com/AryanXCode646/autonomous-code-development-engine">
-    <img src="https://img.shields.io/badge/View%20Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <a href="https://github.com/AryanXCode646/ARL">
+    <img src="https://img.shields.io/badge/View_Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="AdaptiveRL Repository" />
   </a>
 </p>
 
@@ -140,15 +148,15 @@ An AI-powered software development engine designed to generate, execute, test, a
 
 <td width="50%" valign="top">
 
-### 🏥 Dr. AI Healthcare Platform
+### 🌙 Samanvaya
 
-An interactive AI-assisted healthcare application built with a modern React and TypeScript stack.
+**Research-oriented lunar image correspondence and registration framework** for Chandrayaan-2 OHRC/TMC-2/IIRS and reference planetary imagery.
 
-**Focus:** React · TypeScript · AI Interfaces · Full-Stack Development
+Focus areas include illumination changes, large scale disparity, PDS4 mission-data ingestion, robust correspondence, validation, and evidence-aware scientific reporting.
 
 <p>
-  <a href="https://github.com/AryanXCode646/dr-ai-clone">
-    <img src="https://img.shields.io/badge/View%20Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <a href="https://github.com/AryanXCode646/Samanvaya">
+    <img src="https://img.shields.io/badge/View_Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Samanvaya Repository" />
   </a>
 </p>
 
@@ -158,15 +166,15 @@ An interactive AI-assisted healthcare application built with a modern React and 
   <tr>
     <td width="50%" valign="top">
 
-### 📊 EDA Intelligent Agent
+### ⚡ Karyakshetra
 
-An automated exploratory data analysis tool that works with datasets to generate statistical insights, identify patterns, and produce useful visualizations.
+**Autonomous Code Development Engine (ACDE)** that generates, executes, tests, analyzes, and self-corrects software inside an isolated execution workflow.
 
-**Focus:** Python · Pandas · Data Analysis · AI Automation
+Includes multi-provider LLM support, AST security checks, sandbox execution, self-healing iterations, code-quality analysis, project scaffolding, and a web-based developer interface.
 
 <p>
-  <a href="https://github.com/AryanXCode646/eda-agent">
-    <img src="https://img.shields.io/badge/View%20Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <a href="https://github.com/AryanXCode646/Karyakshetra">
+    <img src="https://img.shields.io/badge/View_Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Karyakshetra Repository" />
   </a>
 </p>
 
@@ -174,15 +182,49 @@ An automated exploratory data analysis tool that works with datasets to generate
 
 <td width="50%" valign="top">
 
-### 🎨 Cartoon Image Generator
+### 🩺 Dr.AI
 
-A computer-vision project that transforms photographs into stylized cartoon and anime-inspired images using image-processing and deep-learning techniques.
+**Healthcare application prototype** focused on secure AI-assisted workflows rather than clinical diagnosis.
 
-**Focus:** Python · OpenCV · PyTorch · Computer Vision
+Combines React/TypeScript, Express, MongoDB, JWT/RBAC, appointment concurrency controls, deterministic safety checks, sanitization, observability, and simulated telehealth/prescription workflows.
+
+<p>
+  <a href="https://github.com/AryanXCode646/dr-ai-clone">
+    <img src="https://img.shields.io/badge/View_Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Dr.AI Repository" />
+  </a>
+</p>
+
+</td>
+  </tr>
+
+  <tr>
+    <td width="50%" valign="top">
+
+### 🎨 Cartoonify Studio Pro
+
+A **computer-vision and image stylization suite** with web, desktop, CLI, and Python SDK interfaces.
+
+Supports multiple artistic pipelines, including neural anime stylization and classical image-processing effects, with Docker support and automated testing.
 
 <p>
   <a href="https://github.com/AryanXCode646/cartoon-image-generator67">
-    <img src="https://img.shields.io/badge/View%20Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+    <img src="https://img.shields.io/badge/View_Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Cartoonify Repository" />
+  </a>
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🛡️ OnionSec
+
+**Security observability for Tor onion services**.
+
+The project scans authorized onion services, analyzes metadata and infrastructure exposure, correlates evidence into higher-confidence findings, stores scan history, and provides reporting/monitoring workflows.
+
+<p>
+  <a href="https://github.com/AryanXCode646/OnionScan">
+    <img src="https://img.shields.io/badge/View_Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="OnionSec Repository" />
   </a>
 </p>
 
@@ -192,38 +234,40 @@ A computer-vision project that transforms photographs into stylized cartoon and 
 
 ---
 
-## 📈 GitHub Analytics
+## 🌐 Portfolio
 
-<div align="center">
+### [ARYAN SAXENA — PORTFOLIO 2026](https://aryanxcode646.github.io/portfolio-2026/)
 
-  <img src="https://github-readme-stats.vercel.app/api?username=AryanXCode646&show_icons=true&theme=tokyonight&hide_border=true&title_color=38BDF8&icon_color=38BDF8&text_color=94A3B8&bg_color=0D1117" alt="GitHub Stats" />
+A cinematic developer portfolio focused on **AI engineering, creative frontend work, interactive experiences, and systems thinking**.
 
-<br /><br />
+It includes custom visual effects, an interactive **AryanOS** terminal experience, 3D particle visuals, responsive layouts, and project-focused presentation.
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanXCode646&layout=compact&theme=tokyonight&hide_border=true&title_color=38BDF8&text_color=94A3B8&bg_color=0D1117" alt="Top Languages" />
-
-<br /><br />
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AryanXCode646&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
-
-</div>
+<p align="center">
+  <a href="https://aryanxcode646.github.io/portfolio-2026/">
+    <img src="https://img.shields.io/badge/Launch_Portfolio-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Portfolio" />
+  </a>
+</p>
 
 ---
 
-## 🧩 Open Source & Engineering
-
-I enjoy working on projects that involve:
+## 🧩 Engineering Themes
 
 ```text
-AI Agents                 ████████████████████
-LLM Applications          ████████████████████
-Developer Tooling         ███████████████████░
-Full-Stack Development    ██████████████████░░
-Computer Vision            ████████████████░░░░
-Open Source                ████████████████████
+AI / ML Engineering            ████████████████████
+Autonomous Systems             ███████████████████░
+Research & Scientific Software  ██████████████████░░
+Developer Tooling              ███████████████████░
+Computer Vision                ██████████████████░░
+Security Engineering           ████████████████░░░░
+Full-Stack Development         █████████████████░░░
+Open Source                    ████████████████████
 ```
 
-I'm especially interested in projects involving **AI infrastructure, automation, developer productivity, intelligent agents, and systems engineering**.
+My projects tend to share the same priorities:
+
+**Build → Measure → Validate → Harden → Automate**
+
+I care about reproducibility, explicit limitations, meaningful tests, clear interfaces, and engineering systems that make their behavior observable.
 
 ---
 
@@ -231,14 +275,14 @@ I'm especially interested in projects involving **AI infrastructure, automation,
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
-│                     CURRENTLY BUILDING                      │
+│                         CURRENT FOCUS                       │
 ├─────────────────────────────────────────────────────────────┤
 │  🤖 Autonomous AI development workflows                     │
-│  🧠 LLM-powered developer tools                             │
-│  ⚙️ Self-correcting execution systems                       │
-│  🌐 Modern full-stack applications                           │
-│  🔬 Practical ML & computer vision projects                  │
-│  🌍 Open-source contributions                                │
+│  🧠 LLM-powered developer infrastructure                    │
+│  🎯 Reinforcement learning & policy evaluation               │
+│  🌙 Planetary image registration & computer vision           │
+│  🛡️ Security-aware software systems                         │
+│  🌐 Production-minded full-stack applications               │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -246,28 +290,62 @@ I'm especially interested in projects involving **AI infrastructure, automation,
 
 ## 📚 What I'm Learning
 
-* Advanced **AI Agent architectures**
-* **LLM orchestration** and multi-provider systems
-* Reliable **AI evaluation and testing**
-* **Production-grade backend architecture**
-* Distributed and scalable software systems
-* Better open-source development practices
+I'm currently going deeper into:
+
+* Advanced reinforcement learning and policy generalization
+* Agentic AI architecture and LLM orchestration
+* Reliable evaluation for AI systems
+* Computer vision and scientific image registration
+* Secure sandboxing and autonomous execution
+* Production-grade backend and distributed-system design
+* Open-source engineering, testing, and maintainability
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Open Source
+
+I enjoy contributing to and extending open-source software, especially projects involving:
+
+**AI infrastructure · autonomous agents · reinforcement learning · computer vision · security tooling · developer productivity · systems engineering**
+
+I prefer contributions that are **small enough to review, rigorous enough to trust, and useful enough to keep**.
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+  <img src="https://github-readme-stats.vercel.app/api?username=AryanXCode646&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=94A3B8" alt="GitHub Stats" />
+
+<br /><br />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanXCode646&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" />
+
+<br /><br />
+
+  <img src="https://streak-stats.demolab.com?user=AryanXCode646&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
+
+</div>
+
+---
+
+## 📫 Let's Connect
 
 <p align="center">
   <a href="mailto:rockstary867@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://github.com/AryanXCode646">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
+  <a href="https://aryanxcode646.github.io/portfolio-2026/">
+    <img src="https://img.shields.io/badge/Portfolio-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
 
 <p align="center">
-  <strong>Open to Software Engineering, AI/ML, and high-impact open-source opportunities.</strong>
+  <strong>Open to software engineering, AI/ML, research, and high-impact open-source opportunities.</strong>
 </p>
 
 ---
@@ -277,12 +355,12 @@ I'm especially interested in projects involving **AI infrastructure, automation,
 ### ⭐ Thanks for visiting!
 
 <p>
-  <i>"Code is like humor. When you have to explain it, it's bad."</i>
+  <i>Build things. Break things. Measure everything. Improve relentlessly.</i>
 </p>
 
 <p>
   <a href="https://github.com/AryanXCode646?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore%20My%20Repositories-38BDF8?style=for-the-badge&logo=github&logoColor=black" alt="Explore Repositories" />
+    <img src="https://img.shields.io/badge/Explore_My_Repositories-38BDF8?style=for-the-badge&logo=github&logoColor=black" alt="Explore Repositories" />
   </a>
 </p>
 
