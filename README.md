@@ -129,14 +129,14 @@ Computer-vision image stylization system combining classical image processing wi
 <!-- PROFILE:START -->
 | Metric | Current Value |
 | :--- | :---: |
-| **Public Repositories** | `18` |
-| **Repository Stars** | `★ 65` |
-| **Followers** | `32` |
+| **Public Repositories** | `17` |
+| **Repository Stars** | `★ 55` |
+| **Followers** | `33` |
 | **Following** | `25` |
 | **Public Gists** | `0` |
 | **Latest Active Repository** | [`AryanXCode646`](https://github.com/AryanXCode646/AryanXCode646) |
-| **Top Repository Languages** | `Python` (4) · `JavaScript` (2) · `TypeScript` (1) |
-| **Telemetry Updated** | `2026-09-27 16:56 UTC` |
+| **Top Repository Languages** | `Python` (4) · `JavaScript` (1) · `TypeScript` (1) |
+| **Telemetry Updated** | `2026-09-27 17:42 UTC` |
 <!-- PROFILE:END -->
 
 ---
@@ -151,9 +151,9 @@ Computer-vision image stylization system combining classical image processing wi
 | **[autonomous-code-development-engine](https://github.com/AryanXCode646/autonomous-code-development-engine)** | — | `Python` | ★ 2 | `2026-08-29` |
 | **[cartoon-image-generator67](https://github.com/AryanXCode646/cartoon-image-generator67)** | — | `Python` | ★ 9 | `2026-08-29` |
 | **[7_days_cool_-projects](https://github.com/AryanXCode646/7_days_cool_-projects)** | — | `Python` | ★ 2 | `2026-08-29` |
-| **[portfolio-2026](https://github.com/AryanXCode646/portfolio-2026)** | — | `JavaScript` | ★ 10 | `2026-08-29` |
+| **[SelfLearningML](https://github.com/AryanXCode646/SelfLearningML)** | SelfLearningML | `—` | ★ 3 | `2026-02-17` |
 
-> ⚡ Automatically synchronized from GitHub on `2026-09-27 16:56 UTC`.
+> ⚡ Automatically synchronized from GitHub on `2026-09-27 17:42 UTC`.
 <!-- ACTIVITY:END -->
 
 ---
