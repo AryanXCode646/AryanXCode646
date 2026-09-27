@@ -127,7 +127,16 @@ Computer-vision image stylization system combining classical image processing wi
 ## 📊 Live Profile Telemetry
 
 <!-- PROFILE:START -->
-This section is automatically updated by GitHub Actions.
+| Metric | Current Value |
+| :--- | :---: |
+| **Public Repositories** | `17` |
+| **Repository Stars** | `★ 56` |
+| **Followers** | `31` |
+| **Following** | `24` |
+| **Public Gists** | `0` |
+| **Latest Active Repository** | [`AryanXCode646`](https://github.com/AryanXCode646/AryanXCode646) |
+| **Top Repository Languages** | `Python` (4) · `JavaScript` (2) · `TypeScript` (1) |
+| **Telemetry Updated** | `2026-09-27 03:15 UTC` |
 <!-- PROFILE:END -->
 
 ---
@@ -135,7 +144,16 @@ This section is automatically updated by GitHub Actions.
 ## 📈 Recent Repository Activity
 
 <!-- ACTIVITY:START -->
-This section is automatically updated by GitHub Actions.
+| Repository | Description | Language | Stars | Last Pushed |
+| :--- | :--- | :---: | :---: | :---: |
+| **[AryanXCode646](https://github.com/AryanXCode646/AryanXCode646)** | — | `Python` | ★ 9 | `2026-09-27` |
+| **[dr-ai-clone](https://github.com/AryanXCode646/dr-ai-clone)** | &quot;A modern, AI-powered healthcare platform built with React and TypeScript&quot; | `TypeScript` | ★ 8 | `2026-09-14` |
+| **[autonomous-code-development-engine](https://github.com/AryanXCode646/autonomous-code-development-engine)** | — | `Python` | ★ 1 | `2026-08-29` |
+| **[cartoon-image-generator67](https://github.com/AryanXCode646/cartoon-image-generator67)** | — | `Python` | ★ 8 | `2026-08-29` |
+| **[7_days_cool_-projects](https://github.com/AryanXCode646/7_days_cool_-projects)** | — | `Python` | ★ 1 | `2026-08-29` |
+| **[portfolio-2026](https://github.com/AryanXCode646/portfolio-2026)** | — | `JavaScript` | ★ 9 | `2026-08-29` |
+
+> ⚡ Automatically synchronized from GitHub on `2026-09-27 03:15 UTC`.
 <!-- ACTIVITY:END -->
 
 ---
