@@ -1,0 +1,43 @@
+name: Profile Telemetry
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update_profile.py"
+      - ".github/workflows/profile-telemetry.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update profile telemetry
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_profile.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- README.md assets/profile-metrics.svg; then
+            echo "No profile changes detected."
+            exit 0
+          fi
+
+          git add README.md assets/profile-metrics.svg
+          git commit -m "chore: update profile telemetry"
+          git push

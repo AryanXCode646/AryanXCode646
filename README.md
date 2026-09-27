@@ -1,214 +1,252 @@
+<div align="center">
+
 # Aryan Saxena
 
-## 🧭 About Me
+### AI/ML · Autonomous Systems · Computer Vision · Security · Full-Stack Engineering
 
-I'm **Aryan Saxena**, an AI/ML-focused engineer and developer who enjoys working at the intersection of **machine learning, autonomous systems, computer vision, developer tooling, security engineering, and full-stack software**.
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AryanXCode646)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-saxena-0213363ab/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=vercel&logoColor=white)](https://aryanxcode646.github.io/portfolio-2026/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rockstary867@gmail.com)
 
-I like building systems where the engineering details matter: reproducible experiments, validation pipelines, secure execution, observable workflows, maintainable architectures, and software designed to handle real-world edge cases.
+<br/>
 
-```yaml
-name: Aryan Saxena
+<a href="https://github.com/AryanXCode646">
+  <img src="assets/profile-metrics.svg" alt="Aryan Saxena profile telemetry" width="820" />
+</a>
 
-roles:
-  - AI / ML Engineer
-  - Full-Stack Developer
-  - Systems Builder
-  - Open-Source Contributor
+</div>
 
-focus:
-  - Machine Learning
-  - Reinforcement Learning
-  - Autonomous Systems
-  - Computer Vision
-  - Scientific Computing
-  - Developer Tooling
-  - Security Engineering
-  - Full-Stack Systems
+---
 
-current_projects:
-  - AdaptiveRL
-  - Samanvaya
-  - Karyakshetra
-  - OnionSec
+## `$ whoami`
 
-engineering_style:
-  - Reproducibility
-  - Automated Testing
-  - Evidence-Driven Validation
-  - Security by Design
-  - Observability
-  - Maintainability
-
-workflow:
-  - Build
-  - Measure
-  - Validate
-  - Harden
-  - Automate
+```text
+Host        : aryan@archlinux
+Role        : AI/ML Engineer · Systems Builder · Open-Source Contributor
+Focus       : Intelligent Systems, Autonomous Software, Computer Vision & Security
+Stack       : Python · C++ · TypeScript · JavaScript · Go · Kotlin
+Approach    : Build → Measure → Validate → Harden → Automate
+Status      : Building, experimenting, reviewing, and shipping
 ```
 
-## 🧠 What I Build
+I'm **Aryan Saxena**, an AI/ML-focused engineer who enjoys working at the boundary between **machine learning and real software systems**.
 
-**🤖 Autonomous AI Systems**
-Developer-oriented AI workflows, LLM orchestration, autonomous software development, self-correction, sandboxed execution, and automated validation.
-
-**🎯 Reinforcement Learning Systems**
-Reusable Gymnasium-based environments, PPO/SAC training pipelines, classical planning baselines, curriculum learning, deterministic evaluation, and distribution-shift experiments.
-
-**🌙 Scientific & Computer Vision Software**
-Research-oriented image registration, multi-modal image correspondence, illumination and scale handling, planetary imagery processing, raster workflows, and image stylization.
-
-**🛡️ Developer & Security Tools**
-CLI-first engineering tools, authorized security analysis, infrastructure observation, evidence-oriented workflows, automated testing, and production-minded developer infrastructure.
-
-**🌐 Full-Stack Applications**
-React and TypeScript interfaces, Node.js services, Express APIs, MongoDB-backed applications, Electron software, and interactive web experiences.
+I build systems where the interesting part isn't only the model or interface, but everything around it: architecture, execution, testing, security boundaries, reproducibility, observability, and failure handling.
 
 ---
 
-## 💻 Tech Stack
+## ⚡ Current Engineering Surface
 
-### 🧠 AI / ML / Scientific Computing
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Python · PyTorch · NumPy · Pandas · OpenCV · Gymnasium · Stable-Baselines3**
+### 🤖 AI & Autonomous Software
 
-### 🌐 Full-Stack / Desktop
+* LLM-powered developer systems
+* Agent orchestration and tool execution
+* Autonomous code-generation workflows
+* Sandboxed execution and validation
+* Self-correction and iterative workflows
+* Local / resource-aware AI systems
 
-**TypeScript · JavaScript · React · Node.js · Express · Electron**
+</td>
+<td width="50%" valign="top">
 
-### 🗄️ Data / Infrastructure / Systems
+### 🎯 Reinforcement Learning
 
-**MongoDB · SQLite · Docker · Git · GitHub Actions · Linux · Ollama**
+* Gymnasium environments
+* PPO / SAC training pipelines
+* Classical planning baselines
+* Curriculum learning
+* Multi-seed evaluation
+* Distribution-shift experiments
+* Reproducible benchmarking
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌙 Computer Vision & Scientific Computing
+
+* Planetary image registration
+* Multi-modal image correspondence
+* Illumination and scale variation
+* Image-processing pipelines
+* Raster workflows
+* Neural image stylization
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ Systems, Security & Infrastructure
+
+* Linux-first development
+* Security-aware application design
+* CLI and developer tooling
+* Secure execution boundaries
+* Automated CI/CD
+* Reproducible builds
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔥 Featured Projects
+## 🚀 Featured Engineering
 
 ### 🤖 [AdaptiveRL](https://github.com/AryanXCode646/ARL)
 
-**Multi-environment reinforcement learning platform** for training, evaluating, and benchmarking adaptive agents.
-
-The project explores reusable Gymnasium environments, PPO/SAC-based training, classical planning baselines, curriculum learning, deterministic evaluation, and controlled distribution-shift experiments.
-
----
+Multi-environment reinforcement-learning platform for training, evaluating, and benchmarking adaptive agents.
 
 ### 🌙 [Samanvaya](https://github.com/AryanXCode646/Samanvaya)
 
-**Research-oriented framework for multi-modal lunar image correspondence and registration.**
-
-Focused on Chandrayaan-2 imagery and planetary reference data, with emphasis on illumination variation, scale differences, PDS4 data, geometric registration, validation, and scientific reproducibility.
-
----
+Research-oriented framework for multi-modal lunar image correspondence and registration across planetary imagery.
 
 ### ⚡ [Karyakshetra](https://github.com/AryanXCode646/Karyakshetra)
 
-**Autonomous Code Development Engine** for generating, executing, testing, analyzing, and improving software.
-
-Explores LLM orchestration, sandboxed execution, AST-based security checks, self-correction workflows, project generation, and automated validation.
-
----
+Developer tooling project exploring desktop code editing, project workflows, execution, and collaborative development.
 
 ### 🛡️ [OnionSec](https://github.com/AryanXCode646/OnionScan)
 
-**Security tooling for authorized Tor onion services.**
-
-The project focuses on analyzing service metadata and infrastructure observations, organizing security evidence, and supporting structured security-analysis workflows.
-
----
+Security tooling for authorized Tor onion-service analysis, observation, and evidence organization.
 
 ### 🩺 [Dr.AI](https://github.com/AryanXCode646/dr-ai-clone)
 
-**Full-stack AI-assisted healthcare application prototype** built around modern web technologies and security-oriented application workflows.
-
-The project explores how AI-assisted interfaces can be integrated into a broader application architecture.
-
----
+Full-stack AI-assisted healthcare application prototype with modern frontend/backend architecture and security-aware workflows.
 
 ### 🎨 [Cartoonify Studio](https://github.com/AryanXCode646/cartoon-image-generator67)
 
-A **computer-vision image stylization system** combining classical image-processing techniques with deep-learning-based pipelines.
-
-The project explores multiple artistic transformation workflows and interfaces for experimenting with image stylization.
+Computer-vision image stylization system combining classical image processing with deep-learning pipelines.
 
 ---
 
-## 🌐 Portfolio
+## 📊 Live Profile Telemetry
 
-### [ARYAN SAXENA — PORTFOLIO 2026](https://aryanxcode646.github.io/portfolio-2026/)
-
-A developer portfolio focused on **AI engineering, creative frontend development, interactive experiences, and systems thinking**.
-
-The portfolio brings together my projects, technical interests, experiments, and development work in a single interactive experience.
+<!-- PROFILE:START -->
+This section is automatically updated by GitHub Actions.
+<!-- PROFILE:END -->
 
 ---
 
-## 🧩 Engineering Themes
+## 📈 Recent Repository Activity
+
+<!-- ACTIVITY:START -->
+This section is automatically updated by GitHub Actions.
+<!-- ACTIVITY:END -->
+
+---
+
+## 🧠 Engineering Themes
 
 ```text
-AI / ML Engineering             ████████████████████
-Autonomous Systems              ███████████████████░
-Developer Tooling               ███████████████████░
-Computer Vision                 ██████████████████░░
-Scientific Computing            ██████████████████░░
-Security Engineering            ████████████████░░░░
-Full-Stack Development          █████████████████░░░
-Open Source                     ████████████████████
-
+Autonomous AI Systems         ████████████████████
+Machine Learning              ████████████████████
+Reinforcement Learning        ███████████████████░
+Computer Vision               ██████████████████░░
+Scientific Computing          ██████████████████░░
+Developer Tooling             ███████████████████░
+Security Engineering          █████████████████░░░
+Full-Stack Systems            █████████████████░░░
+Linux / Systems               ██████████████████░░
 ```
 
-Across my projects, I try to follow the same engineering loop:
-
-**Build → Measure → Validate → Harden → Automate**
-
-I care about reproducibility, explicit limitations, meaningful tests, clear interfaces, observable behavior, and software that remains maintainable as complexity grows.
+These are recurring areas across my projects, not a ranking.
 
 ---
 
-## 🛠️ Current Focus
+## 🧰 Technical Stack
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│                         CURRENT FOCUS                       │
-├─────────────────────────────────────────────────────────────┤
-│  🤖 Autonomous AI development workflows                     │
-│  🧠 LLM-powered developer infrastructure                    │
-│  🎯 Reinforcement learning & policy evaluation              │
-│  🌙 Planetary image registration & computer vision          │
-│  🛡️ Security-aware software systems                        │
-│  🌐 Production-minded full-stack applications              │
-└─────────────────────────────────────────────────────────────┘
+┌────────────────────┬──────────────────────────────────────────────────────────┐
+│ Domain             │ Technologies                                              │
+├────────────────────┼──────────────────────────────────────────────────────────┤
+│ AI / ML            │ Python · PyTorch · NumPy · Pandas · OpenCV                │
+│ Reinforcement      │ Gymnasium · Stable-Baselines3 · PPO · SAC                │
+│ Scientific CV      │ OpenCV · Raster workflows · Image registration            │
+│ Autonomous AI      │ LLMs · Agent orchestration · Tool execution               │
+│ Programming        │ Python · C++ · TypeScript · JavaScript · Go · Kotlin      │
+│ Web / Desktop      │ React · Node.js · Express · Electron · Tailwind CSS       │
+│ Data               │ MongoDB · SQLite                                          │
+│ Systems            │ Linux · Arch Linux · Shell · CLI tooling                  │
+│ Infrastructure     │ Docker · GitHub Actions · Git                             │
+└────────────────────┴──────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📚 What I'm Exploring
+## 🔬 Engineering Principles
 
-I'm going deeper into:
+**Reproducibility** — configurations, seeds, dependencies, and workflows should be traceable.
 
-* Advanced reinforcement learning and policy generalization
-* Agentic AI architecture and LLM orchestration
-* Reliable evaluation and benchmarking for AI systems
-* Computer vision and scientific image registration
-* Secure sandboxing and autonomous execution
-* Production-grade backend and systems engineering
-* Open-source testing, maintainability, and developer experience
+**Validation** — test observable behavior rather than only checking that code runs.
 
----
+**Security by Design** — authentication, authorization, input validation, execution boundaries, and failure modes belong in the architecture.
 
-## 🤝 Open Source
+**Evidence Over Assumptions** — benchmarks, tests, artifacts, and traces should support important claims.
 
-I enjoy contributing to and building open-source software around:
+**Automation** — repeated work becomes a script, CLI, CI job, or service.
 
-**AI infrastructure · autonomous agents · reinforcement learning · computer vision · security tooling · developer productivity · systems engineering**
-
-I prefer engineering work that is **reproducible, testable, reviewable, and useful**.
+**Maintainability** — complexity should remain explicit and understandable.
 
 ---
 
-## 📊 GitHub Analytics
+## 🧪 Engineering Loop
+
+```text
+Problem
+   ↓
+Design
+   ↓
+Build
+   ↓
+Measure
+   ↓
+Validate
+   ↓
+Harden
+   ↓
+Automate
+   ↓
+Repeat
+```
+
+---
+
+## 🌐 Open Source
+
+I enjoy contributing through:
+
+`Implementation` · `Issue Investigation` · `Bug Reproduction` · `Code Review` · `Testing` · `Documentation` · `CI/CD` · `Architecture`
+
+I value changes that are **reviewable, measurable, reproducible, and useful**.
+
+---
+
+## 📚 Currently Exploring
+
+```text
+Advanced RL & Policy Generalization
+Agentic AI Architectures
+LLM Orchestration
+Reliable AI Evaluation
+Scientific Computer Vision
+Secure Sandboxed Execution
+Systems & Backend Architecture
+Developer Infrastructure
+Open-Source Engineering
+```
+
+---
+
+## 📈 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AryanXCode646&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AryanXCode646&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanXCode646&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" />
 </p>
 
 <p align="center">
@@ -217,15 +255,34 @@ I prefer engineering work that is **reproducible, testable, reviewable, and usef
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect
 
-**GitHub:** [AryanXCode646](https://github.com/AryanXCode646)
-**Portfolio:** [aryanxcode646.github.io/portfolio-2026](https://aryanxcode646.github.io/portfolio-2026/)
-**LinkedIn:** [Aryan Saxena](https://www.linkedin.com/in/aryan-saxena-0213363ab/)
-**Email:** [rockstary867@gmail.com](mailto:rockstary867@gmail.com)
+<p align="center">
+
+<a href="https://github.com/AryanXCode646">
+<img src="https://img.shields.io/badge/GitHub-AryanXCode646-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/aryan-saxena-0213363ab/">
+<img src="https://img.shields.io/badge/LinkedIn-Aryan%20Saxena-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://aryanxcode646.github.io/portfolio-2026/">
+<img src="https://img.shields.io/badge/Portfolio-2026-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="mailto:rockstary867@gmail.com">
+<img src="https://img.shields.io/badge/Email-rockstary867%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
 
 ---
 
-### ⭐ Thanks for visiting!
+<div align="center">
 
-> Building systems, breaking assumptions, validating results, and learning along the way.
+### `$ echo "Build systems that survive contact with reality."`
+
+<sub>AI · Systems · Research · Security · Open Source</sub>
+
+</div>
