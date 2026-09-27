@@ -285,10 +285,6 @@ Open-Source Engineering
 <img src="https://img.shields.io/badge/LinkedIn-Aryan%20Saxena-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://aryanxcode646.github.io/portfolio-2026/">
-<img src="https://img.shields.io/badge/Portfolio-2026-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
 <a href="mailto:rockstary867@gmail.com">
 <img src="https://img.shields.io/badge/Email-rockstary867%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
