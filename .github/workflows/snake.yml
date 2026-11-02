@@ -1,5 +1,9 @@
 name: Generate Snake Contribution Grid
 
+permissions:
+  contents: write
+
+
 on:
   schedule:
     - cron: "0 */12 * * *"
@@ -15,7 +19,7 @@ jobs:
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: AryanXCode646
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark

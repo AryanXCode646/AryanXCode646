@@ -4,14 +4,14 @@
 
 ### AI/ML · Autonomous Systems · Computer Vision · Security · Full-Stack Engineering
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AryanXCode646)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AryanSaxena20)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-saxena-0213363ab/)
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rockstary867@gmail.com)
 
 <br/>
 
-<a href="https://github.com/AryanXCode646">
+<a href="https://github.com/AryanSaxena20">
   <img src="assets/profile-metrics.svg" alt="Aryan Saxena profile telemetry" width="820" />
 </a>
 
@@ -98,27 +98,27 @@ I build systems where the interesting part isn't only the model or interface, bu
 
 ## 🚀 Featured Engineering
 
-### 🤖 [AdaptiveRL](https://github.com/AryanXCode646/ARL)
+### 🤖 [AdaptiveRL](https://github.com/AryanSaxena20/ARL)
 
 Multi-environment reinforcement-learning platform for training, evaluating, and benchmarking adaptive agents.
 
-### 🌙 [Samanvaya](https://github.com/AryanXCode646/Samanvaya)
+### 🌙 [Samanvaya](https://github.com/AryanSaxena20/Samanvaya)
 
 Research-oriented framework for multi-modal lunar image correspondence and registration across planetary imagery.
 
-### ⚡ [Karyakshetra](https://github.com/AryanXCode646/Karyakshetra)
+### ⚡ [Karyakshetra](https://github.com/AryanSaxena20/Karyakshetra)
 
 Developer tooling project exploring desktop code editing, project workflows, execution, and collaborative development.
 
-### 🛡️ [OnionSec](https://github.com/AryanXCode646/OnionScan)
+### 🛡️ [OnionSec](https://github.com/AryanSaxena20/OnionScan)
 
 Security tooling for authorized Tor onion-service analysis, observation, and evidence organization.
 
-### 🩺 [Dr.AI](https://github.com/AryanXCode646/dr-ai-clone)
+### 🩺 [Dr.AI](https://github.com/AryanSaxena20/dr-ai-clone)
 
 Full-stack AI-assisted healthcare application prototype with modern frontend/backend architecture and security-aware workflows.
 
-### 🎨 [Cartoonify Studio](https://github.com/AryanXCode646/cartoon-image-generator67)
+### 🎨 [Cartoonify Studio](https://github.com/AryanSaxena20/cartoon-image-generator67)
 
 Computer-vision image stylization system combining classical image processing with deep-learning pipelines.
 
@@ -134,7 +134,7 @@ Computer-vision image stylization system combining classical image processing wi
 | **Followers** | `44` |
 | **Following** | `62` |
 | **Public Gists** | `0` |
-| **Latest Active Repository** | [`AryanXCode646`](https://github.com/AryanXCode646/AryanXCode646) |
+| **Latest Active Repository** | [`AryanXCode646`](https://github.com/AryanSaxena20/AryanXCode646) |
 | **Top Repository Languages** | `Python` (4) · `JavaScript` (1) · `TypeScript` (1) |
 | **Telemetry Updated** | `2026-10-29 12:54 UTC` |
 <!-- PROFILE:END -->
@@ -146,12 +146,12 @@ Computer-vision image stylization system combining classical image processing wi
 <!-- ACTIVITY:START -->
 | Repository | Description | Language | Stars | Last Pushed |
 | :--- | :--- | :---: | :---: | :---: |
-| **[AryanXCode646](https://github.com/AryanXCode646/AryanXCode646)** | — | `Python` | ★ 11 | `2026-10-29` |
-| **[Karyakshetra](https://github.com/AryanXCode646/Karyakshetra)** | — | `JavaScript` | ★ 13 | `2026-09-27` |
-| **[dr-ai-clone](https://github.com/AryanXCode646/dr-ai-clone)** | &quot;A modern, AI-powered healthcare platform built with React and TypeScript&quot; | `TypeScript` | ★ 9 | `2026-09-14` |
-| **[autonomous-code-development-engine](https://github.com/AryanXCode646/autonomous-code-development-engine)** | — | `Python` | ★ 2 | `2026-08-29` |
-| **[cartoon-image-generator67](https://github.com/AryanXCode646/cartoon-image-generator67)** | — | `Python` | ★ 9 | `2026-08-29` |
-| **[7_days_cool_-projects](https://github.com/AryanXCode646/7_days_cool_-projects)** | — | `Python` | ★ 2 | `2026-08-29` |
+| **[AryanXCode646](https://github.com/AryanSaxena20/AryanXCode646)** | — | `Python` | ★ 11 | `2026-10-29` |
+| **[Karyakshetra](https://github.com/AryanSaxena20/Karyakshetra)** | — | `JavaScript` | ★ 13 | `2026-09-27` |
+| **[dr-ai-clone](https://github.com/AryanSaxena20/dr-ai-clone)** | &quot;A modern, AI-powered healthcare platform built with React and TypeScript&quot; | `TypeScript` | ★ 9 | `2026-09-14` |
+| **[autonomous-code-development-engine](https://github.com/AryanSaxena20/autonomous-code-development-engine)** | — | `Python` | ★ 2 | `2026-08-29` |
+| **[cartoon-image-generator67](https://github.com/AryanSaxena20/cartoon-image-generator67)** | — | `Python` | ★ 9 | `2026-08-29` |
+| **[7_days_cool_-projects](https://github.com/AryanSaxena20/7_days_cool_-projects)** | — | `Python` | ★ 2 | `2026-08-29` |
 
 > ⚡ Automatically synchronized from GitHub on `2026-10-29 12:54 UTC`.
 <!-- ACTIVITY:END -->
@@ -263,12 +263,12 @@ Open-Source Engineering
 ## 📈 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AryanXCode646&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanXCode646&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AryanSaxena20&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanSaxena20&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AryanXCode646&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AryanSaxena20&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -277,7 +277,7 @@ Open-Source Engineering
 
 <p align="center">
 
-<a href="https://github.com/AryanXCode646">
+<a href="https://github.com/AryanSaxena20">
 <img src="https://img.shields.io/badge/GitHub-AryanXCode646-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 

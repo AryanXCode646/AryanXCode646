@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-USERNAME = "AryanXCode646"
+USERNAME = os.getenv("PROFILE_USERNAME") or os.getenv("GITHUB_REPOSITORY_OWNER") or "AryanSaxena20"
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 SVG = ROOT / "assets" / "profile-metrics.svg"

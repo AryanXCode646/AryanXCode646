@@ -26,6 +26,7 @@ jobs:
       - name: Update profile telemetry
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
         run: python3 scripts/update_profile.py
 
       - name: Commit changes
