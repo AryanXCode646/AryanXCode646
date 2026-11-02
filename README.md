@@ -139,6 +139,15 @@ Computer-vision image stylization system combining classical image processing wi
 | **Telemetry Updated** | `2026-11-02 17:43 UTC` |
 <!-- PROFILE:END -->
 
+## 🐍 GitHub Contribution Snake
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AryanSaxena20/AryanXCode646/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AryanSaxena20/AryanXCode646/output/github-snake.svg">
+  <img src="https://raw.githubusercontent.com/AryanSaxena20/AryanXCode646/output/ocean.gif"
+       alt="Animated GitHub contribution snake showing profile contributions"
+       width="100%" />
+</picture>
+
 ---
 
 ## 📈 Recent Repository Activity

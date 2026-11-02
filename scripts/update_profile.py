@@ -11,7 +11,24 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-USERNAME = os.getenv("PROFILE_USERNAME") or os.getenv("GITHUB_REPOSITORY_OWNER") or "AryanSaxena20"
+def resolve_username() -> str:
+    """Resolve the GitHub username according to precedence.
+    1. PROFILE_USERNAME env var
+    2. GITHUB_REPOSITORY_OWNER env var
+    3. Default fallback 'AryanSaxena20'
+    """
+    return (
+        os.getenv("PROFILE_USERNAME")
+        or os.getenv("GITHUB_REPOSITORY_OWNER")
+        or "AryanSaxena20"
+    )
+
+def __getattr__(name: str):
+    if name == "USERNAME":
+        return resolve_username()
+    raise AttributeError(name)
+
+
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 SVG = ROOT / "assets" / "profile-metrics.svg"
@@ -21,7 +38,7 @@ API = "https://api.github.com"
 def get_json(path: str):
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": f"{USERNAME}-profile-telemetry",
+        "User-Agent": f"{resolve_username()}-profile-telemetry",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     token = os.getenv("GITHUB_TOKEN")
@@ -78,7 +95,7 @@ def build_profile(profile: dict, repos: list[dict], now: str) -> str:
 
     latest_name = owned[0]["name"] if owned else "—"
     latest_link = (
-        f"[`{latest_name}`](https://github.com/{USERNAME}/{latest_name})"
+        f"[`{latest_name}`](https://github.com/{resolve_username()}/{latest_name})"
         if latest_name != "—"
         else "—"
     )
