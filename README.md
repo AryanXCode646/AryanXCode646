@@ -253,10 +253,10 @@ This table is regenerated automatically from your recently pushed public reposit
 
 These cards are provided by third-party GitHub statistics services. They may occasionally be unavailable or cached because of service limits.
 
-<p align="center">
+<!--<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AryanXCode646&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" alt="GitHub statistics for AryanXCode646" height="180" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanXCode646&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used public repository languages" height="180" />
-</p>
+</p>-->
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=AryanXCode646&theme=tokyonight&hide_border=true" alt="GitHub contribution streak for AryanXCode646" />
