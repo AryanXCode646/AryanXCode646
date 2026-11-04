@@ -298,16 +298,3 @@ def update_marker(
         rf"({re.escape(start)}).*?({re.escape(end)})",
         flags=re.DOTALL,
     )
-
-    replacement = f"{start}\n\n{content.strip()}\n\n{end}"
-
-    result, count = pattern.subn(
-        lambda _: replacement,
-        text,
-        count=1,
-    )
-
-    if count != 1:
-        raise RuntimeError(f"Missing marker block: {start}")
-
-    return result
