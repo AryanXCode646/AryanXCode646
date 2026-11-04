@@ -298,3 +298,4 @@ def update_marker(
         rf"({re.escape(start)}).*?({re.escape(end)})",
         flags=re.DOTALL,
     )
+   </div>
