@@ -1,8 +1,12 @@
-<div align="center">Aryan Saxena
-Computer Science Undergraduate | AI/ML | Autonomous Systems | Computer Vision | Open Source
+<div align="center">
+
+# Aryan Saxena
+
+### Computer Science Undergraduate | AI/ML | Autonomous Systems | Computer Vision | Open Source
+
 <p>
   <a href="https://github.com/AryanXCode646">
-    <img src="https://img.shields.io/badge/GitHub-AryanXCode646-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
+    <img src="https://img.shields.io/badge/GitHub-AryanXCode646-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
   </a>
   <a href="https://www.linkedin.com/in/aryan-saxena-0213363ab/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn profile" />
@@ -10,29 +14,41 @@ Computer Science Undergraduate | AI/ML | Autonomous Systems | Computer Vision | 
   <a href="mailto:rockstary867@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-</p><p>
+</p>
+
+<p>
   <img src="https://komarev.com/ghpvc/?username=AryanXCode646&style=flat-square&color=blue" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/AryanXCode646?label=Followers&style=flat-square" alt="GitHub followers" />
   <img src="https://img.shields.io/github/stars/AryanXCode646?affiliations=OWNER%2CCOLLABORATOR&style=flat-square" alt="GitHub stars" />
   <a href="https://github.com/AryanXCode646/AryanXCode646/actions/workflows/profile-telemetry.yml">
-    <img src="https://github.com/AryanXCode646/AryanXCode646/actions/workflows/profile-telemetry.yml/badge.svg" alt="Profile telemetry workflow status" />
+    <img src="https://github.com/AryanXCode646/AryanXCode646/actions/workflows/profile-telemetry.yml/badge.svg" alt="Profile telemetry workflow" />
   </a>
   <a href="https://github.com/AryanXCode646/AryanXCode646/actions/workflows/snake.yml">
-    <img src="https://github.com/AryanXCode646/AryanXCode646/actions/workflows/snake.yml/badge.svg" alt="Contribution snake workflow status" />
+    <img src="https://github.com/AryanXCode646/AryanXCode646/actions/workflows/snake.yml/badge.svg" alt="Contribution snake workflow" />
   </a>
-</p><a href="https://github.com/AryanXCode646">
-  <img src="assets/profile-metrics.svg" alt="Automatically generated GitHub profile metrics" width="100%" />
-</a></div>$ whoami
-Name        : Aryan Saxena
-Role        : Computer Science Undergraduate · AI/ML Developer
-Interests   : Machine Learning · Autonomous Systems · Computer Vision · Systems
-Languages   : Python · C++ · TypeScript · JavaScript · Go · Kotlin
-Environment : Linux · Manjaro KDE Plasma
-Workflow    : Build → Measure → Validate → Improve → Share
-I enjoy building practical software at the intersection of machine learning and reliable engineering. My work spans experimentation with learning algorithms, computer-vision pipelines, developer tools, and security-aware applications.
+</p>
 
-I care about more than getting a demo to run: I value reproducible experiments, understandable architecture, meaningful tests, measurable results, and honest documentation of limitations.
-🧭 Areas I Work In
+<a href="https://github.com/AryanXCode646">
+  <img src="assets/profile-metrics.svg" alt="Automatically generated GitHub profile metrics" width="100%" />
+</a>
+
+</div>
+
+---
+
+## 👋 About Me
+
+I'm **Aryan Saxena**, a Computer Science undergraduate interested in building practical software at the intersection of **machine learning and reliable engineering**.
+
+My work spans machine-learning experiments, reinforcement learning, computer-vision pipelines, neuromorphic computing, developer tools, and security-aware applications. I enjoy taking a project beyond the initial demo by focusing on architecture, reproducibility, meaningful tests, measurable results, and honest documentation of limitations.
+
+- **Current interests:** AI/ML, autonomous software, scientific computer vision, and systems engineering.
+- **Languages:** Python, C++, TypeScript, JavaScript, Go, and Kotlin.
+- **Environment:** Linux · Manjaro KDE Plasma.
+- **Engineering approach:** Build → Measure → Validate → Improve → Share.
+
+## 🧭 Areas of Interest
+
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -40,7 +56,7 @@ I care about more than getting a demo to run: I value reproducible experiments, 
       <ul>
         <li>LLM-assisted developer tools</li>
         <li>Agent workflows and tool execution</li>
-        <li>Code-generation and feedback loops</li>
+        <li>Code generation and feedback loops</li>
         <li>Execution isolation and validation</li>
         <li>Local and resource-aware AI experiments</li>
       </ul>
@@ -63,7 +79,7 @@ I care about more than getting a demo to run: I value reproducible experiments, 
         <li>Image registration and correspondence</li>
         <li>Multi-scale and illumination variation</li>
         <li>Image-processing pipelines</li>
-        <li>Raster and planetary data workflows</li>
+        <li>Raster and planetary-data workflows</li>
         <li>Image stylization</li>
       </ul>
     </td>
@@ -71,21 +87,27 @@ I care about more than getting a demo to run: I value reproducible experiments, 
       <h3>🛠️ Software & Systems Engineering</h3>
       <ul>
         <li>Python tooling and CLI applications</li>
-        <li>Full-stack and desktop application development</li>
+        <li>Full-stack and desktop applications</li>
         <li>API integration and data handling</li>
         <li>Testing, CI/CD, and reproducible builds</li>
         <li>Security-aware application design</li>
       </ul>
     </td>
   </tr>
-</table>🚀 Featured Projects
-A selection of repositories covering my current engineering and research interests. Project status and validation scope are described in each repository.
+</table>
+
+---
+
+## 🚀 Featured Projects
+
+A selection of projects covering my current engineering and research interests. Each repository documents its implementation status, setup, and limitations.
+
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🧠 <a href="https://github.com/AryanXCode646/Neuro_chip_ar">NeuroChip AR</a></h3>
-      <p>A software-first neuromorphic computing prototype implementing leaky integrate-and-fire neurons, spike encoding, feed-forward and recurrent spiking networks, and STDP learning mechanisms.</p>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Spiking_Neural_Networks-6A5ACD?style=flat-square" alt="Spiking neural networks" /></p>
+      <p>A software-first neuromorphic computing prototype implementing leaky integrate-and-fire neurons, spike encoding, feed-forward and recurrent spiking networks, and spike-timing-dependent plasticity.</p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Neuromorphic_Computing-6A5ACD?style=flat-square" alt="Neuromorphic computing" /></p>
       <p><a href="https://github.com/AryanXCode646/Neuro_chip_ar">Repository →</a></p>
     </td>
     <td width="50%" valign="top">
@@ -138,10 +160,30 @@ A selection of repositories covering my current engineering and research interes
     </td>
   </tr>
 </table>
-More repositories: Browse all public repositories.
-📊 Live GitHub Telemetry
-The following section is updated automatically by the Profile Telemetry GitHub Actions workflow. Do not remove or rename the markers; the updater uses them to replace the table.
+
+**More projects:** [Browse all public repositories](https://github.com/AryanXCode646?tab=repositories).
+
+---
+
+## 🔄 Automatic Profile Updates
+
+This profile README is connected to GitHub Actions and refreshes its live sections from the public GitHub API. You do not need to edit the follower, star, repository, language, or recent-activity values manually.
+
+- **Profile telemetry:** The `Profile Telemetry` workflow checks GitHub profile and repository data every 6 hours. It updates the metrics table, recent repository activity, and `assets/profile-metrics.svg`, then commits changes when the generated content has changed.
+- **Contribution snake:** The `Generate Snake Contribution Grid` workflow regenerates the contribution snake every 12 hours and publishes the SVG files to the `output` branch.
+- **Manual refresh:** Both workflows can also be started from the repository's **Actions** tab using **Run workflow**.
+- **Change detection:** A push to `main` that changes the README, telemetry script, or telemetry workflow also starts the profile telemetry workflow.
+
+GitHub does not send a direct profile-update event to this repository when a follower, star, or public repository changes. The scheduled workflow checks for those changes, so updates normally appear on the next successful scheduled run. GitHub may delay scheduled Actions runs during periods of high load.
+
+**Automation files:** [Profile telemetry workflow](.github/workflows/profile-telemetry.yml) · [Contribution snake workflow](.github/workflows/snake.yml) · [Telemetry updater](scripts/update_profile.py).
+
+### 📊 Live GitHub Telemetry
+
+The table below is maintained automatically. Keep the `PROFILE` markers unchanged so the updater can refresh the content.
+
 <!-- PROFILE:START -->
+
 | Metric | Current Value |
 | :--- | :---: |
 | **Public Repositories** | `19` |
@@ -152,26 +194,46 @@ The following section is updated automatically by the Profile Telemetry GitHub A
 | **Latest Active Repository** | [`AryanXCode646`](https://github.com/AryanXCode646/AryanXCode646) |
 | **Top Repository Languages** | `Python` (5) · `JavaScript` (1) · `TypeScript` (1) |
 | **Telemetry Updated** | `2026-11-04 06:13 UTC` |
-<!-- PROFILE:END -->🐍 Contribution Activity
-The contribution snake is generated by the Generate Snake Contribution Grid workflow and published to the output branch.
+
+<!-- PROFILE:END -->
+
+---
+
+## 🐍 GitHub Contribution Snake
+
+The contribution snake is generated by GitHub Actions and served from the `output` branch. It automatically switches to the appropriate version for light and dark themes.
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AryanXCode646/AryanXCode646/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AryanXCode646/AryanXCode646/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/AryanXCode646/AryanXCode646/output/github-snake.svg" alt="Animated GitHub contribution snake" width="100%" />
-</picture>🗂️ Recent Repository Activity
-This table is regenerated by the telemetry updater from your recently pushed public repositories.
+  <img src="https://raw.githubusercontent.com/AryanXCode646/AryanXCode646/output/github-snake.svg" alt="GitHub contribution snake" width="100%" />
+</picture>
+
+---
+
+## 🗂️ Recent Repository Activity
+
+This table is regenerated automatically from your recently pushed public repositories. Keep the `ACTIVITY` markers unchanged.
+
 <!-- ACTIVITY:START -->
+
 | Repository | Description | Language | Stars | Last Pushed |
 | :--- | :--- | :---: | :---: | :---: |
-| **[AryanXCode646](https://github.com/AryanXCode646/AryanXCode646)** | — | `Python` | ★ 11 | `2026-11-04` |
-| **[Neuro_chip_ar](https://github.com/AryanXCode646/Neuro_chip_ar)** | — | `Python` | ★ 4 | `2026-11-03` |
-| **[dr-ai-clone](https://github.com/AryanXCode646/dr-ai-clone)** | &quot;A modern, AI-powered healthcare platform built with React and TypeScript&quot; | `TypeScript` | ★ 9 | `2026-10-29` |
-| **[Karyakshetra](https://github.com/AryanXCode646/Karyakshetra)** | — | `JavaScript` | ★ 13 | `2026-09-27` |
-| **[autonomous-code-development-engine](https://github.com/AryanXCode646/autonomous-code-development-engine)** | — | `Python` | ★ 2 | `2026-08-29` |
-| **[cartoon-image-generator67](https://github.com/AryanXCode646/cartoon-image-generator67)** | — | `Python` | ★ 9 | `2026-08-29` |
+| **[AryanXCode646](https://github.com/AryanXCode646/AryanXCode646)** | Profile README and telemetry | `Python` | ★ 11 | `2026-11-04` |
+| **[Neuro_chip_ar](https://github.com/AryanXCode646/Neuro_chip_ar)** | Neuromorphic computing prototype | `Python` | ★ 4 | `2026-11-03` |
+| **[dr-ai-clone](https://github.com/AryanXCode646/dr-ai-clone)** | AI-powered healthcare platform prototype | `TypeScript` | ★ 9 | `2026-10-29` |
+| **[Karyakshetra](https://github.com/AryanXCode646/Karyakshetra)** | Collaborative desktop code editor | `JavaScript` | ★ 13 | `2026-09-27` |
+| **[autonomous-code-development-engine](https://github.com/AryanXCode646/autonomous-code-development-engine)** | LLM-assisted code development | `Python` | ★ 2 | `2026-08-29` |
+| **[cartoon-image-generator67](https://github.com/AryanXCode646/cartoon-image-generator67)** | AI and computer-vision image stylization | `Python` | ★ 9 | `2026-08-29` |
 
-> ⚡ Automatically synchronized from GitHub on `2026-11-04 06:13 UTC`.
-<!-- ACTIVITY:END -->🧰 Technology Stack
+> ⚡ Automatically synchronized from GitHub.
+
+<!-- ACTIVITY:END -->
+
+---
+
+## 🧰 Technology Stack
+
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
@@ -185,33 +247,71 @@ This table is regenerated by the telemetry updater from your recently pushed pub
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-</p>Tools and platforms: Git · Linux · Manjaro · Shell · SQLite · MongoDB · Gymnasium · Stable-Baselines3 · NumPy · Pandas · FastAPI · Electron
-📈 GitHub Analytics
-These cards are loaded from GitHub Readme Stats and Streak Stats services. They may occasionally be unavailable due to third-party service limits.
+</p>
+
+**Tools and platforms:** Git · Linux · Manjaro · Shell · SQLite · MongoDB · Gymnasium · Stable-Baselines3 · NumPy · Pandas · FastAPI · Electron.
+
+---
+
+## 📈 GitHub Analytics
+
+These cards are provided by third-party GitHub statistics services. They may occasionally be unavailable or cached because of service limits.
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AryanXCode646&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" alt="GitHub statistics for AryanXCode646" height="180" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanXCode646&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used public repository languages" height="180" />
-</p><p align="center">
-  <img src="https://streak-stats.demolab.com/?user=AryanXCode646&theme=tokyonight&hide_border=true" alt="GitHub contribution streak for AryanXCode646" />
-</p><p align="center">
-  <a href="https://github.com/AryanXCode646?tab=overview&from=2026-01-01&to=2026-12-31">View GitHub contribution history →</a>
-</p>🔬 Engineering Principles
-- Reproducibility: Record configurations, seeds, dependencies, and experimental conditions.
-- Validation: Test observable behavior and compare results against meaningful baselines.
-- Evidence over assumptions: Distinguish implemented features, synthetic results, and real-world validation.
-- Security by design: Treat identity, authorization, input validation, and execution boundaries as architectural concerns.
-- Maintainability: Prefer clear interfaces, focused modules, and reviewable changes.
-- Automation: Turn repeatable checks and workflows into scripts and CI jobs.
-🌱 Currently Exploring
-- Neuromorphic computing and spiking neural networks
-- Reinforcement-learning evaluation and policy generalization
-- Agentic AI and LLM orchestration
-- Scientific computer vision and planetary image analysis
-- Secure execution environments and developer infrastructure
-🤝 Open Source
-I value open-source work that is reviewable, testable, reproducible, and useful. I enjoy contributing through implementation, issue investigation, bug reproduction, code review, testing, documentation, and CI improvements.
+</p>
 
-Explore my work and ongoing contributions on GitHub or connect with me on LinkedIn.
-<div align="center">$ echo "Build systems that survive contact with reality."
-<sub>AI · Systems · Research · Computer Vision · Open Source</sub>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=AryanXCode646&theme=tokyonight&hide_border=true" alt="GitHub contribution streak for AryanXCode646" />
+</p>
+
+---
+
+## 🤝 Open Source
+
+I enjoy contributing through implementation, issue investigation, bug reproduction, code review, testing, documentation, CI/CD, and architecture discussions.
+
+I value changes that are **reviewable, measurable, reproducible, and useful**.
+
+## 📚 Currently Exploring
+
+- Reliable AI evaluation and agent architectures.
+- Reinforcement learning and policy generalization.
+- Neuromorphic computing and spiking neural networks.
+- Scientific computer vision and planetary-image workflows.
+- Secure execution environments and developer infrastructure.
+
+---
+
+<div align="center">
+
+### Build systems that survive contact with reality.
+
+<sub>AI · Systems · Research · Security · Open Source</sub>
+
 </div>
+def update_marker(
+    text: str,
+    start: str,
+    end: str,
+    content: str,
+) -> str:
+    """Replace a README marker block while preserving Markdown spacing."""
+    pattern = re.compile(
+        rf"({re.escape(start)}).*?({re.escape(end)})",
+        flags=re.DOTALL,
+    )
+
+    replacement = f"{start}\n\n{content.strip()}\n\n{end}"
+
+    result, count = pattern.subn(
+        lambda _: replacement,
+        text,
+        count=1,
+    )
+
+    if count != 1:
+        raise RuntimeError(f"Missing marker block: {start}")
+
+    return result
