@@ -286,16 +286,4 @@ I value changes that are **reviewable, measurable, reproducible, and useful**.
 
 <sub>AI · Systems · Research · Security · Open Source</sub>
 
-</div>
-def update_marker(
-    text: str,
-    start: str,
-    end: str,
-    content: str,
-) -> str:
-    """Replace a README marker block while preserving Markdown spacing."""
-    pattern = re.compile(
-        rf"({re.escape(start)}).*?({re.escape(end)})",
-        flags=re.DOTALL,
-    )
-   </div>
+
