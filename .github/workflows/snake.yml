@@ -1,9 +1,5 @@
 name: Generate Snake Contribution Grid
 
-permissions:
-  contents: write
-
-
 on:
   schedule:
     - cron: "0 */12 * * *"
@@ -11,13 +7,23 @@ on:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Generate Snake SVG
-        uses: Platane/snk@v3
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -26,7 +32,7 @@ jobs:
             dist/ocean.gif?color_snake=orange&color_dots=#22272e,#39d353,#26a641,#006d32,#0e4429
 
       - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
         with:
           target_branch: output
           build_dir: dist

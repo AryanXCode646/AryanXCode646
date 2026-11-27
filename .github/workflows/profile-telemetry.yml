@@ -5,6 +5,8 @@ on:
     - cron: "17 */6 * * *"
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - "scripts/update_profile.py"
       - ".github/workflows/profile-telemetry.yml"
@@ -13,21 +15,35 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-telemetry-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   update-profile:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
 
       - name: Update profile telemetry
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USERNAME: ${{ github.repository_owner }}
         run: python3 scripts/update_profile.py
+
+      - name: Validate generated SVG XML
+        run: |
+          python3 -c "import xml.etree.ElementTree as ET; ET.parse('assets/profile-metrics.svg')"
 
       - name: Commit changes
         run: |

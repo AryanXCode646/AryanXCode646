@@ -1,311 +1,137 @@
-<div align="center">
-
 # Aryan Saxena
 
-### AI/ML · Autonomous Systems · Computer Vision · Security · Full-Stack Engineering
+**Computer Science Undergraduate | AI/ML & Research Engineering | Open-Source Contributor**
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AryanSaxena20)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-saxena-0213363ab/)
+I build, test, document, and maintain intelligent software systems. My work focuses on machine learning pipelines, reinforcement learning, scientific computing, and reliable developer tooling—with an emphasis on engineering correctness, reproducibility, and automated validation.
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rockstary867@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-AryanXCode646-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AryanXCode646)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aryan%20Saxena-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-saxena-0213363ab/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rockstary867@gmail.com)
 
-<br/>
-
-<a href="https://github.com/AryanSaxena20">
-  <img src="assets/profile-metrics.svg" alt="Aryan Saxena profile telemetry" width="820" />
+<a href="https://github.com/AryanXCode646">
+  <img src="assets/profile-metrics.svg" alt="GitHub profile telemetry for AryanXCode646 showing public repositories, active owned stars, followers, and following counts" width="820" />
 </a>
 
-</div>
+---
+
+## Current Focus
+
+- **Core:** Machine Learning & AI pipelines, Reinforcement Learning, and Software Engineering with CI/CD
+- **Research & Specialized Domains:** Neuromorphic Computing (Spiking Neural Networks), Scientific Computer Vision, Quantum Computing Simulation, and Autonomous Developer Systems
 
 ---
 
-## `$ whoami`
+## Featured Projects
 
-```text
-Host        : aryan@archlinux
-Role        : AI/ML Engineer · Systems Builder · Open-Source Contributor
-Focus       : Intelligent Systems, Autonomous Software, Computer Vision & Security
-Stack       : Python · C++ · TypeScript · JavaScript · Go · Kotlin
-Approach    : Build → Measure → Validate → Harden → Automate
-Status      : Building, experimenting, reviewing, and shipping
-```
+### [AdaptiveRL (`ARL`)](https://github.com/AryanXCode646/ARL) · Fork of [`StellarResearch/ARL`](https://github.com/StellarResearch/ARL)
+- **Problem & Solution:** Multi-environment reinforcement learning platform for training, evaluating, and benchmarking adaptive agents with reproducible experiment protocols.
+- **Implemented:** Gymnasium environments, PPO/SAC training pipelines, deterministic preregistered seed schedules, JSON/CSV episode-level evaluation export, 6-DOF quadrotor dynamics, and a Streamlit interface.
+- **Tech & Status:** Python, PyTorch, Gymnasium, Streamlit · Active research platform with [CI and pytest suite](https://github.com/AryanXCode646/ARL/tree/main/tests).
 
-I'm **Aryan Saxena**, an AI/ML-focused engineer who enjoys working at the boundary between **machine learning and real software systems**.
+### [NeuroChip AR](https://github.com/AryanXCode646/Neuro_chip_ar) · Fork of [`StellarResearch/Neuro-Chip-AR`](https://github.com/StellarResearch/Neuro-Chip-AR)
+- **Problem & Solution:** Establishes a pure-Python, analytically verifiable spiking neural network (SNN) substrate before any hardware or embedded implementation.
+- **Implemented:** Leaky Integrate-and-Fire (LIF) neuron dynamics, seeded Poisson rate encoding, feed-forward and delayed-feedback recurrent SNNs, and pair-based STDP plasticity.
+- **Tech & Status:** Python, NumPy · Experimental prototype with [unit tests](https://github.com/AryanXCode646/Neuro_chip_ar/tree/main/tests) and [temporal classification artifacts](https://github.com/AryanXCode646/Neuro_chip_ar/tree/main/artifacts).
 
-I build systems where the interesting part isn't only the model or interface, but everything around it: architecture, execution, testing, security boundaries, reproducibility, observability, and failure handling.
+### [Q-Plastic (VQP 0.1)](https://github.com/AryanXCode646/Q-Plastic) · Original (MIT)
+- **Problem & Solution:** Provides a local CPU-based ideal digital quantum simulator with cross-checked backends and reproducible experiment persistence.
+- **Implemented:** 1- and 2-qubit gate set, Qiskit Aer `statevector` backend with canonical big-endian bit ordering, independent NumPy reference backend (`<= 8` qubits), memory guard, Typer CLI, and atomic JSON persistence. *(Noise models and adaptive learning are planned for future milestones.)*
+- **Tech & Status:** Python, Qiskit Aer, NumPy, Typer · VQP 0.1 prototype with [unit tests](https://github.com/AryanXCode646/Q-Plastic/tree/main/tests) and [architecture docs](https://github.com/AryanXCode646/Q-Plastic/tree/main/docs).
 
----
+### [Samanvaya](https://github.com/AryanXCode646/Samanvaya) · Fork of [`ashishsinghbora/Samanvaya`](https://github.com/ashishsinghbora/Samanvaya)
+- **Problem & Solution:** Planetary image registration engine designed for lunar optical and NIR datasets under extreme shadow reversals.
+- **Implemented:** Multi-modal correspondence and registration workflows, mission-data ingestion, validation hardening, and containerized execution.
+- **Tech & Status:** Python, OpenCV, Docker · Active research engineering with CI and [tests](https://github.com/AryanXCode646/Samanvaya/tree/main/tests).
 
-## ⚡ Current Engineering Surface
+### [DiseasePrediction](https://github.com/AryanXCode646/DiseasePrediction) · Original (MIT)
+- **Problem & Solution:** Leakage-free binary classification pipeline on UCI Breast Cancer Wisconsin (Diagnostic) data prioritizing recall and false-negative analysis.
+- **Implemented:** Strict input validation, fold-isolated `SimpleImputer`/`StandardScaler`, training-only out-of-fold F2 threshold selection, Brier/calibration reporting, and Streamlit UI.
+- **Tech & Status:** Python, Scikit-learn, XGBoost, Pandas · Educational benchmark (not clinically validated) with CI and [pytest suite](https://github.com/AryanXCode646/DiseasePrediction/tree/main/tests).
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 AI & Autonomous Software
-
-* LLM-powered developer systems
-* Agent orchestration and tool execution
-* Autonomous code-generation workflows
-* Sandboxed execution and validation
-* Self-correction and iterative workflows
-* Local / resource-aware AI systems
-
-</td>
-<td width="50%" valign="top">
-
-### 🎯 Reinforcement Learning
-
-* Gymnasium environments
-* PPO / SAC training pipelines
-* Classical planning baselines
-* Curriculum learning
-* Multi-seed evaluation
-* Distribution-shift experiments
-* Reproducible benchmarking
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌙 Computer Vision & Scientific Computing
-
-* Planetary image registration
-* Multi-modal image correspondence
-* Illumination and scale variation
-* Image-processing pipelines
-* Raster workflows
-* Neural image stylization
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ Systems, Security & Infrastructure
-
-* Linux-first development
-* Security-aware application design
-* CLI and developer tooling
-* Secure execution boundaries
-* Automated CI/CD
-* Reproducible builds
-
-</td>
-</tr>
-</table>
+### [CreditScoringModel](https://github.com/AryanXCode646/CreditScoringModel) · Original (MIT)
+- **Problem & Solution:** Leakage-safe credit risk classification pipeline on the UCI Statlog German Credit dataset.
+- **Implemented:** Stratified cross-validation, feature engineering, multi-model evaluation, and an optional Streamlit interface.
+- **Tech & Status:** Python, Scikit-learn, Pandas, Streamlit · Educational benchmark (not validated for underwriting) with [pytest suite](https://github.com/AryanXCode646/CreditScoringModel/tree/main/tests).
 
 ---
 
-## 🚀 Featured Engineering
+## Open-Source Contributions
 
-### 🤖 [AdaptiveRL](https://github.com/AryanSaxena20/ARL)
+### External Repositories
 
-Multi-environment reinforcement-learning platform for training, evaluating, and benchmarking adaptive agents.
+| Repository | Pull Request | Engineering Problem & Contribution | Result |
+| :--- | :--- | :--- | :--- |
+| `StellarResearch/ARL` | [#305](https://github.com/StellarResearch/ARL/pull/305) | Seed schedules could overlap across phases. Centralized deterministic seed derivation across `train`, `eval_pre`, `eval_post`, and `update` domains with pre-run validation. | Merged (2026-10-17) |
+| `StellarResearch/ARL` | [#155](https://github.com/StellarResearch/ARL/pull/155) | Evaluation lacked per-episode export. Added `EpisodeEvaluationRecord` and optional JSON/CSV export while preserving aggregate metrics and seeding. | Merged (2026-09-27) |
+| `StellarResearch/ARL` | [#258](https://github.com/StellarResearch/ARL/pull/258) | Consolidated fork usability, installation, GUI workflow, and evaluation tooling improvements into upstream. | Merged (2026-09-28) |
 
-### 🌙 [Samanvaya](https://github.com/AryanSaxena20/Samanvaya)
+### Own Repositories
 
-Research-oriented framework for multi-modal lunar image correspondence and registration across planetary imagery.
-
-### ⚡ [Karyakshetra](https://github.com/AryanSaxena20/Karyakshetra)
-
-Developer tooling project exploring desktop code editing, project workflows, execution, and collaborative development.
-
-### 🛡️ [OnionSec](https://github.com/AryanSaxena20/OnionScan)
-
-Security tooling for authorized Tor onion-service analysis, observation, and evidence organization.
-
-### 🩺 [Dr.AI](https://github.com/AryanSaxena20/dr-ai-clone)
-
-Full-stack AI-assisted healthcare application prototype with modern frontend/backend architecture and security-aware workflows.
-
-### 🎨 [Cartoonify Studio](https://github.com/AryanSaxena20/cartoon-image-generator67)
-
-Computer-vision image stylization system combining classical image processing with deep-learning pipelines.
+| Repository | Pull Request | Engineering Problem & Contribution | Result |
+| :--- | :--- | :--- | :--- |
+| `AryanXCode646/DiseasePrediction` | [#1](https://github.com/AryanXCode646/DiseasePrediction/pull/1) | Hardened validation (rejecting `+/-inf`, booleans, and invalid targets), added training-only OOF F2 thresholding, probability calibration, and CI. | Merged (2026-11-26) |
 
 ---
 
-## 📊 Live Profile Telemetry
+## Technical Skills
+
+- **Primary Languages:** Python, C++, JavaScript / TypeScript
+- **Machine Learning:** NumPy, Pandas, Scikit-learn, PyTorch, OpenCV
+- **AI & Research:** Reinforcement Learning (Gymnasium, PPO/SAC), Spiking Neural Networks, LLM Integration, Scientific Computing
+- **Software Engineering:** FastAPI, React, Node.js, Electron, Git, GitHub Actions *(React/Electron/FastAPI used in specific full-stack and desktop projects)*
+- **Infrastructure & Quality:** Linux, Docker, Automated Testing (`pytest`, `unittest`), CI/CD
+
+---
+
+## Engineering Principles
+
+- **Reproducibility:** Pin seeds, configurations, dependencies, and data contracts so experiments and builds are traceable.
+- **Validation:** Test observable behavior, edge cases, and failure modes rather than only checking that code runs.
+- **Explicit Scope:** Distinguish implemented, experimental, and planned capabilities; never overstate prototype readiness.
+- **Automation:** Turn repetitive verification, telemetry, and formatting checks into deterministic scripts and CI workflows.
+
+---
+
+## Development Activity
 
 <!-- PROFILE:START -->
 | Metric | Current Value |
 | :--- | :---: |
-| **Public Repositories** | `18` |
-| **Repository Stars** | `★ 57` |
-| **Followers** | `45` |
-| **Following** | `62` |
-| **Public Gists** | `0` |
-| **Latest Active Repository** | [`AryanXCode646`](https://github.com/AryanSaxena20/AryanXCode646) |
-| **Top Repository Languages** | `Python` (4) · `JavaScript` (1) · `TypeScript` (1) |
-| **Telemetry Updated** | `2026-11-02 17:43 UTC` |
+| **Public Repositories** | `25` |
+| **Active Owned Repositories** | `14` |
+| **Stars (Active Owned, excl. forks)** | `★ 64` |
+| **Followers** | `44` |
+| **Following** | `112` |
+| **Latest Active Repository** | [`CreditScoringModel`](https://github.com/AryanXCode646/CreditScoringModel) |
+| **Top Languages (Active Owned)** | `Python` (9) · `JavaScript` (2) · `TypeScript` (1) |
+| **Telemetry Updated** | `2026-11-27 23:07 UTC` |
 <!-- PROFILE:END -->
 
-## 🐍 GitHub Contribution Snake
+<!-- ACTIVITY:START -->
+| Repository | Description | Language | Stars | Last Pushed |
+| :--- | :--- | :---: | :---: | :---: |
+| **[CreditScoringModel](https://github.com/AryanXCode646/CreditScoringModel)** | Machine Learning Credit Scoring Model on UCI Statlog German Credit | `Python` | ★ 1 | `2026-11-27` |
+| **[DiseasePrediction](https://github.com/AryanXCode646/DiseasePrediction)** | Disease Prediction from Medical Data (Breast Cancer Wisconsin) | `Python` | ★ 1 | `2026-11-27` |
+| **[HandwrittenCharacterRecognition](https://github.com/AryanXCode646/HandwrittenCharacterRecognition)** | Handwritten Digit Recognition CNN on MNIST (PyTorch) | `Python` | ★ 1 | `2026-11-27` |
+| **[ObjectDetectionTracking](https://github.com/AryanXCode646/ObjectDetectionTracking)** | — | `Python` | ★ 1 | `2026-11-27` |
+| **[AryanXCode646](https://github.com/AryanXCode646/AryanXCode646)** | — | `Python` | ★ 12 | `2026-11-27` |
+| **[Q-Plastic](https://github.com/AryanXCode646/Q-Plastic)** | A Quantum Computer That Learns Like a Brain | `Python` | ★ 1 | `2026-11-26` |
+
+> Automatically synchronized from GitHub on `2026-11-27 23:07 UTC`.
+<!-- ACTIVITY:END -->
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AryanSaxena20/AryanXCode646/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AryanSaxena20/AryanXCode646/output/github-snake.svg">
-  <img src="https://raw.githubusercontent.com/AryanSaxena20/AryanXCode646/output/ocean.gif"
-       alt="Animated GitHub contribution snake showing profile contributions"
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AryanXCode646/AryanXCode646/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AryanXCode646/AryanXCode646/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/AryanXCode646/AryanXCode646/output/ocean.gif"
+       alt="Contribution activity visualization for AryanXCode646"
        width="100%" />
 </picture>
 
 ---
 
-## 📈 Recent Repository Activity
+## Contact
 
-<!-- ACTIVITY:START -->
-| Repository | Description | Language | Stars | Last Pushed |
-| :--- | :--- | :---: | :---: | :---: |
-| **[AryanXCode646](https://github.com/AryanSaxena20/AryanXCode646)** | — | `Python` | ★ 11 | `2026-11-02` |
-| **[dr-ai-clone](https://github.com/AryanSaxena20/dr-ai-clone)** | &quot;A modern, AI-powered healthcare platform built with React and TypeScript&quot; | `TypeScript` | ★ 9 | `2026-10-29` |
-| **[Karyakshetra](https://github.com/AryanSaxena20/Karyakshetra)** | — | `JavaScript` | ★ 13 | `2026-09-27` |
-| **[autonomous-code-development-engine](https://github.com/AryanSaxena20/autonomous-code-development-engine)** | — | `Python` | ★ 2 | `2026-08-29` |
-| **[cartoon-image-generator67](https://github.com/AryanSaxena20/cartoon-image-generator67)** | — | `Python` | ★ 9 | `2026-08-29` |
-| **[7_days_cool_-projects](https://github.com/AryanSaxena20/7_days_cool_-projects)** | — | `Python` | ★ 2 | `2026-08-29` |
-
-> ⚡ Automatically synchronized from GitHub on `2026-11-02 17:43 UTC`.
-<!-- ACTIVITY:END -->
-
----
-
-## 🧠 Engineering Themes
-
-```text
-Autonomous AI Systems         ████████████████████
-Machine Learning              ████████████████████
-Reinforcement Learning        ███████████████████░
-Computer Vision               ██████████████████░░
-Scientific Computing          ██████████████████░░
-Developer Tooling             ███████████████████░
-Security Engineering          █████████████████░░░
-Full-Stack Systems            █████████████████░░░
-Linux / Systems               ██████████████████░░
-```
-
-These are recurring areas across my projects, not a ranking.
-
----
-
-## 🧰 Technical Stack
-
-```text
-┌────────────────────┬──────────────────────────────────────────────────────────┐
-│ Domain             │ Technologies                                              │
-├────────────────────┼──────────────────────────────────────────────────────────┤
-│ AI / ML            │ Python · PyTorch · NumPy · Pandas · OpenCV                │
-│ Reinforcement      │ Gymnasium · Stable-Baselines3 · PPO · SAC                │
-│ Scientific CV      │ OpenCV · Raster workflows · Image registration            │
-│ Autonomous AI      │ LLMs · Agent orchestration · Tool execution               │
-│ Programming        │ Python · C++ · TypeScript · JavaScript · Go · Kotlin      │
-│ Web / Desktop      │ React · Node.js · Express · Electron · Tailwind CSS       │
-│ Data               │ MongoDB · SQLite                                          │
-│ Systems            │ Linux · Arch Linux · Shell · CLI tooling                  │
-│ Infrastructure     │ Docker · GitHub Actions · Git                             │
-└────────────────────┴──────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🔬 Engineering Principles
-
-**Reproducibility** — configurations, seeds, dependencies, and workflows should be traceable.
-
-**Validation** — test observable behavior rather than only checking that code runs.
-
-**Security by Design** — authentication, authorization, input validation, execution boundaries, and failure modes belong in the architecture.
-
-**Evidence Over Assumptions** — benchmarks, tests, artifacts, and traces should support important claims.
-
-**Automation** — repeated work becomes a script, CLI, CI job, or service.
-
-**Maintainability** — complexity should remain explicit and understandable.
-
----
-
-## 🧪 Engineering Loop
-
-```text
-Problem
-   ↓
-Design
-   ↓
-Build
-   ↓
-Measure
-   ↓
-Validate
-   ↓
-Harden
-   ↓
-Automate
-   ↓
-Repeat
-```
-
----
-
-## 🌐 Open Source
-
-I enjoy contributing through:
-
-`Implementation` · `Issue Investigation` · `Bug Reproduction` · `Code Review` · `Testing` · `Documentation` · `CI/CD` · `Architecture`
-
-I value changes that are **reviewable, measurable, reproducible, and useful**.
-
----
-
-## 📚 Currently Exploring
-
-```text
-Advanced RL & Policy Generalization
-Agentic AI Architectures
-LLM Orchestration
-Reliable AI Evaluation
-Scientific Computer Vision
-Secure Sandboxed Execution
-Systems & Backend Architecture
-Developer Infrastructure
-Open-Source Engineering
-```
-
----
-
-## 📈 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AryanSaxena20&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryanSaxena20&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AryanSaxena20&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 📫 Connect
-
-<p align="center">
-
-<a href="https://github.com/AryanSaxena20">
-<img src="https://img.shields.io/badge/GitHub-AryanXCode646-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/aryan-saxena-0213363ab/">
-<img src="https://img.shields.io/badge/LinkedIn-Aryan%20Saxena-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:rockstary867@gmail.com">
-<img src="https://img.shields.io/badge/Email-rockstary867%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-</p>
-
----
-
-<div align="center">
-
-### `$ echo "Build systems that survive contact with reality."`
-
-<sub>AI · Systems · Research · Security · Open Source</sub>
-
-</div>
+- **GitHub:** [github.com/AryanXCode646](https://github.com/AryanXCode646)
+- **LinkedIn:** [linkedin.com/in/aryan-saxena-0213363ab](https://www.linkedin.com/in/aryan-saxena-0213363ab/)
+- **Email:** [rockstary867@gmail.com](mailto:rockstary867@gmail.com)
