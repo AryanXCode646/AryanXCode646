@@ -32,7 +32,7 @@ jobs:
             dist/ocean.gif?color_snake=orange&color_dots=#22272e,#39d353,#26a641,#006d32,#0e4429
 
       - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
           target_branch: output
           build_dir: dist
