@@ -45,12 +45,26 @@ def utc_now_str() -> str:
 
 
 def _build_headers(username: str) -> dict[str, str]:
+
+def resolve_username() -> str:
+    """Resolve the GitHub username using environment-variable precedence."""
+    return (
+        os.getenv("PROFILE_USERNAME")
+        or os.getenv("GITHUB_REPOSITORY_OWNER")
+        or "AryanSaxena20"
+    )
+
+
+def get_json(path: str):
+    """Fetch JSON data from the GitHub API."""
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": f"{username}-profile-telemetry",
         "X-GitHub-Api-Version": "2022-11-28",
     }
     token = os.getenv("GITHUB_TOKEN", "").strip()
+
+    token = os.getenv("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
     return headers
@@ -128,7 +142,25 @@ def escape_markdown_table_cell(text: str) -> str:
     normalized = " ".join(text.replace("\r", " ").replace("\n", " ").split())
     escaped = html.escape(normalized, quote=True)
     return escaped.replace("|", "\\|")
+    request = Request(f"{API}{path}", headers=headers)
 
+    try:
+        with urlopen(request, timeout=30) as response:
+            return json.load(response)
+    except (HTTPError, URLError) as exc:
+        raise RuntimeError(
+            f"GitHub API request failed for {path}: {exc}"
+        ) from exc
+
+
+def date_only(value: str | None) -> str:
+    """Convert an ISO timestamp into a date."""
+    if not value:
+        return "—"
+
+    return datetime.fromisoformat(
+        value.replace("Z", "+00:00")
+    ).strftime("%Y-%m-%d")
 
 def update_marker(text: str, start: str, end: str, content: str) -> str:
     """Replace content between unique start/end HTML comment markers."""
@@ -138,6 +170,30 @@ def update_marker(text: str, start: str, end: str, content: str) -> str:
         raise RuntimeError(f"Missing marker block: {start}")
     if start_count > 1 or end_count > 1:
         raise RuntimeError(f"Duplicate marker block detected: {start}")
+
+def update_marker(
+    text: str,
+    start: str,
+    end: str,
+    content: str,
+) -> str:
+    """Replace content between README markers."""
+    pattern = re.compile(
+        rf"({re.escape(start)}).*?({re.escape(end)})",
+        flags=re.DOTALL,
+    )
+
+    replacement = f"\\1\n{content}\n\\2"
+    result, count = pattern.subn(
+        lambda _: replacement.replace("\\1", start).replace("\\2", end),
+        text,
+        count=1,
+    )
+
+    if count != 1:
+        raise RuntimeError(f"Missing marker block: {start}")
+
+    return result
 
     start_idx = text.index(start)
     end_idx = text.index(end)
@@ -154,12 +210,30 @@ def build_profile(profile: dict[str, Any], repos: list[dict[str, Any]], now: str
     username = resolve_username()
     owned = filter_active_owned_repos(repos)
     stars = sum(int(r.get("stargazers_count") or 0) for r in owned)
+def build_profile(
+    profile: dict,
+    repos: list[dict],
+    now: str,
+) -> str:
+    """Generate the profile telemetry Markdown table."""
+    owned = [
+        repo
+        for repo in repos
+        if not repo.get("fork", False)
+        and not repo.get("archived", False)
+    ]
+
+    stars = sum(
+        int(repo.get("stargazers_count", 0))
+        for repo in owned
+    )
 
     languages: dict[str, int] = {}
+
     for repo in owned:
-        lang = repo.get("language")
-        if lang:
-            languages[lang] = languages.get(lang, 0) + 1
+        language = repo.get("language")
+        if language:
+            languages[language] = languages.get(language, 0) + 1
 
     top_languages = sorted(
         languages.items(),
@@ -167,7 +241,8 @@ def build_profile(profile: dict[str, Any], repos: list[dict[str, Any]], now: str
     )[:5]
 
     lang_text = " · ".join(
-        f"`{name}` ({count})" for name, count in top_languages
+        f"`{name}` ({count})"
+        for name, count in top_languages
     ) or "—"
 
     if owned:
@@ -176,6 +251,14 @@ def build_profile(profile: dict[str, Any], repos: list[dict[str, Any]], now: str
         latest_link = f"[`{latest_name}`]({latest_url})" if latest_name != "—" else "—"
     else:
         latest_link = "—"
+    latest_name = owned[0]["name"] if owned else "—"
+
+    latest_link = (
+        f"[`{latest_name}`]"
+        f"(https://github.com/{resolve_username()}/{latest_name})"
+        if latest_name != "—"
+        else "—"
+    )
 
     return "\n".join(
         [
@@ -196,6 +279,14 @@ def build_profile(profile: dict[str, Any], repos: list[dict[str, Any]], now: str
 def build_activity(repos: list[dict[str, Any]], now: str) -> str:
     """Build the Markdown recent repository activity table."""
     owned = filter_active_owned_repos(repos)[:ACTIVITY_LIMIT]
+def build_activity(repos: list[dict], now: str) -> str:
+    """Generate the recent repository activity table."""
+    owned = [
+        repo
+        for repo in repos
+        if not repo.get("fork", False)
+        and not repo.get("archived", False)
+    ][:6]
 
     rows = [
         "| Repository | Description | Language | Stars | Last Pushed |",
@@ -235,6 +326,51 @@ def build_svg(profile: dict[str, Any], repos: list[dict[str, Any]], now: str) ->
     username = resolve_username()
     owned = filter_active_owned_repos(repos)
     stars = sum(int(r.get("stargazers_count") or 0) for r in owned)
+    for repo in owned:
+        description = (
+            (repo.get("description") or "—")
+            .replace("\n", " ")
+            .strip()
+        )
+
+        if len(description) > 82:
+            description = description[:79] + "..."
+
+        rows.append(
+            f"| **[{repo['name']}]({repo['html_url']})** | "
+            f"{html.escape(description)} | "
+            f"`{repo.get('language') or '—'}` | "
+            f"★ {repo.get('stargazers_count', 0)} | "
+            f"`{date_only(repo.get('pushed_at'))}` |"
+        )
+
+    rows.extend(
+        [
+            "",
+            f"> ⚡ Automatically synchronized from GitHub on `{now}`.",
+        ]
+    )
+
+    return "\n".join(rows)
+
+
+def build_svg(
+    profile: dict,
+    repos: list[dict],
+    now: str,
+) -> str:
+    """Generate the profile metrics SVG."""
+    owned = [
+        repo
+        for repo in repos
+        if not repo.get("fork", False)
+        and not repo.get("archived", False)
+    ]
+
+    stars = sum(
+        int(repo.get("stargazers_count", 0))
+        for repo in owned
+    )
 
     values = [
         ("PUBLIC REPOS", f"{int(profile.get('public_repos') or 0):,}"),
@@ -245,11 +381,12 @@ def build_svg(profile: dict[str, Any], repos: list[dict[str, Any]], now: str) ->
 
     parts: list[str] = []
     start_x = 14
-    card_w = 190
+    card_width = 190
     gap = 12
 
     for index, (label, value) in enumerate(values):
-        x = start_x + index * (card_w + gap)
+        x = start_x + index * (card_width + gap)
+
         parts.append(
             f"""  <g transform="translate({x},30)">
     <rect width="190" height="104" rx="12" fill="#111827" stroke="#334155"/>
@@ -258,6 +395,17 @@ def build_svg(profile: dict[str, Any], repos: list[dict[str, Any]], now: str) ->
     <text x="18" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
           font-size="26" font-weight="700" fill="#f8fafc">{html.escape(value, quote=True)}</text>
   </g>"""
+            f"""<g transform="translate({x},26)">
+  <rect width="190" height="108" rx="14"
+        fill="#111827" stroke="#334155"/>
+  <text x="18" y="34"
+        font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="13" fill="#94a3b8">{html.escape(label)}</text>
+  <text x="18" y="78"
+        font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="28" font-weight="700"
+        fill="#f8fafc">{html.escape(value)}</text>
+</g>"""
         )
 
     header = html.escape(f"{username.upper()} / PROFILE TELEMETRY", quote=True)
@@ -276,6 +424,15 @@ def build_svg(profile: dict[str, Any], repos: list[dict[str, Any]], now: str) ->
   <text x="20" y="166"
         font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
         font-size="11" fill="#64748b">{footer}</text>
+        font-size="11" fill="#64748b">
+    ARYANXCODE646 / PROFILE TELEMETRY
+  </text>
+  {''.join(parts)}
+  <text x="20" y="166"
+        font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="11" fill="#64748b">
+    last synchronized: {html.escape(now)}
+  </text>
 </svg>
 """
 
@@ -309,14 +466,30 @@ def main() -> None:
     now = utc_now_str()
     profile = get_json(f"/users/{username}")
     repos = fetch_all_repos(username)
+    """Fetch GitHub data and update the profile README and SVG."""
+    now = datetime.now(timezone.utc).strftime(
+        "%Y-%m-%d %H:%M UTC"
+    )
+
+    # Resolve once and reuse for both API requests.
+    username = resolve_username()
+
+    profile = get_json(f"/users/{username}")
+
+    repos = get_json(
+        f"/users/{username}/repos"
+        "?type=owner&sort=pushed&direction=desc&per_page=100"
+    )
 
     readme = README.read_text(encoding="utf-8")
+
     readme = update_marker(
         readme,
         "<!-- PROFILE:START -->",
         "<!-- PROFILE:END -->",
         build_profile(profile, repos, now),
     )
+
     readme = update_marker(
         readme,
         "<!-- ACTIVITY:START -->",
@@ -327,6 +500,13 @@ def main() -> None:
     atomic_write_text(README, readme)
     atomic_write_text(SVG, build_svg(profile, repos, now))
     print(f"Profile synchronized for {username}: {now}")
+    README.write_text(readme, encoding="utf-8")
+    SVG.write_text(
+        build_svg(profile, repos, now),
+        encoding="utf-8",
+    )
+
+    print(f"Profile synchronized: {now}")
 
 
 if __name__ == "__main__":
